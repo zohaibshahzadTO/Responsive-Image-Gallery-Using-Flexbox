@@ -12,6 +12,10 @@
   display: block;
 }
 
+.cell {
+  margin: 1rem;
+}
+
 @media screen and (min-width: 600px) {
   .grid {
     display: flex;
@@ -20,6 +24,12 @@
   }
 
   .cell {
-    width: 50%;
+    width: calc(50% - 2rem);
+  }
+}
+
+@media scren and (min-width: 1000px) {
+  .cell {
+    width: calc(33.3333% - 2rem);
   }
 }

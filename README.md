@@ -27,3 +27,9 @@ The grid wrapping container is defined as a flex element, which will wrap in the
 # Desktop
 
 For desktops, we'll be using 1000px and we'll display the images in rows of three.
+
+# Margins
+
+So far we don't have any padding or spacing between the images and it doesn't look that good. Therefore, we'll be making some adjustments in adding space between all the images.
+
+First, we'll add a margin around the cell for all screen sizes. Then edit the width of the cells on their respective sizes. See the commit along with this ReadME file in order to see the corresponding changes to the CSS file.

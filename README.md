@@ -6,6 +6,8 @@ We'll be creating a responsive, repeating grid (image gallery) with flexbox.
 
 We have to make sure before starting to include some sort of reset, or at least set box-sizing: border-box and margin: 0 to the body. (More about all that, if you’re not sure.) Now we can get started on the grid.
 
+# Mobile
+
 In this repo, we'll be delving into creating flexbox galleries for multiple devices: tablet, phone, and desktop.
 
 We'll start by putting everything inside a generic container. The grid class will be the flex wrapping container. For mobile, everything will be on column, hence it doesn't need to be defined as flex yet.
@@ -13,3 +15,15 @@ We'll start by putting everything inside a generic container. The grid class wil
 Inside that, we'll make a cell and place an image inside of that. We'll make the cell responsive by putting a max-width on it.
 
 Moreover, the image should be a block level element.
+
+This pretty much wraps it up for mobile devices.
+
+# Tablet
+
+We'll be choosing 600px as the width to start showing the mid-screen view. We want the images to show up in rows of two now.
+
+The grid wrapping container is defined as a flex element, which will wrap in the direction of a row (horizontal). Since we now want the images to show up in rows of two columns, I’m going to set the width to 50%.
+
+# Desktop
+
+For desktops, we'll be using 1000px and we'll display the images in rows of three.
